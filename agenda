@@ -1,0 +1,15 @@
+# WORKSHOP AGENDA AND TIMELINE
+
+Topic | Mode | Duration | Details
+-------------------- | ---- | -------- | -------
+HC Overview and Session Kick-off | Presentation | 15 Min | Introduction, HANA Cloud overview, Demo/Hands-on Environment and connection info, etc. Introduce the use-case for the hands-on workshop. Present the datasets and data architecture
+Data Provisioning | Hands-on | 15 Min | n the first hands-on exercise, we’ll locate the three sources we will need, and get them ready for use. Participants will learn how the data lake is loaded, and better understand federation and replication.
+Data Harmonization | Hands-on | 20 Min | In this exercise we’ll transform the raw weather sensor data into a standardized Weather Dimension that can be used for reporting and analysis for many different use cases.
+Data Modeling with WebIDE | Demo | 10 Min | Create Models in WebIDE/HDI to support Real-Time Reporting of Transactions by Merchant and Weather. Real Time models, and models to blend hot and cold data will be created/
+Consuming HC data in Analytics | Hands-on | 15 Min | Leverage the new calc view to create a Merchant-centric Dashboard in SAP Analytics Cloud.  “Live” data via HANA cloud show up-to-the minute data. Total Sales, Change % period over period (hour, day, week) Alerts and Risks from Extreme Weather Events, Power Outages. 
+Using ML in HC (PAL/APL) | Hands-on | 15 Min | Grab your Jupyter Notbook and let’s use HANA’s own Machine Learning libraries to find anomalies in the transaction data. This is a hands-on based on a pre-created Jupyter notebooks.
+HANA Graph | Hands-on | 15 Min | This hands-on activity will walk participants thru creating a Transaction network graph and see the clusters between merchants & customers, observer anomalies , check the patterns of a Fraudulent Transaction etc.
+Conclusion | | 10 Min | Summarize what we achieved in the session and answer any questions
+
+## Extra
+Flag Merchants Near Power Outages (**Geospatial Analysis, Spatial Join**)
